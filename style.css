@@ -1,0 +1,181 @@
+body{
+	background: #EAF2F8;
+}
+header {
+	background: linear-gradient( #1E90FF, #34495E);
+	padding: 30px 0;
+}
+#presentationstatement{
+	text-align: center;
+	font-weight: bold;
+}
+.caixa {
+	position: relative;
+	width: 950px;
+	margin: 0 auto;
+}
+#logo{
+	width: 30%;
+	height: 30%;
+	border: 0px;
+	padding:0%;
+}
+nav {
+	position: absolute;
+	top: 150px;
+	right: 30px;
+}
+nav li {
+	display: inline;
+	margin:  0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #ffffff;	
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: crimson;
+}
+
+nav a:active{
+	color:blue;
+	text-decoration: underline;
+	font-size: 23px;
+}
+.brevedescricao li{
+	background:white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding: 1em 0.5em;
+	margin: 0.5em 0.5em;
+	box-sizing: border-box;
+	border-width: 8px;
+	border-color: #EBF5FB;
+	border-style:groove;
+	border-radius: 15px;
+	box-shadow: 7px 8px 5px black;
+}
+
+.brevedescricao{
+	text-align: center;
+	background: lightgrey;
+	padding: 1em 0.5em;
+}
+.descricao{
+	font-size: 20;
+	font-weight: bold;
+}
+
+h2{
+	font-family:sans-serif;
+ 	text-align: left;
+ 	height: 40px;
+ 	padding: 10px;
+ 	margin-left: 60px; 
+ 	font-size: 30px;
+ 	font-weight: bold;
+}
+ol{ 
+	list-style-type: decimal;
+	padding: 10px;
+	font-family:serif;
+	text-align: left;
+	margin-left: 75px;
+}
+.subofsumary
+{
+	margin-left: -40px;
+	list-style-type: upper-roman;
+
+}
+.subsubofsumary
+{
+	margin-left: -90px;
+	list-style-type: disc;
+}
+.titulo-centralizado
+{
+	text-align: center;
+	font-weight: bold;
+}
+p{
+	padding: 10px;
+	font-family:serif;
+	text-align: left;
+	margin-left: 60px;
+}
+i{
+	color: red;
+	font-style: italic;
+}
+u{
+	color: blue;
+}
+.mapa{
+	text-align: center;
+	padding: 3em 30px;
+	background: rgb(83,170,214);
+	background: radial-gradient(circle, rgba(83,170,214,1) 51%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+	color: white;
+}
+#disclaimer{
+	font-size: 11px; 
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.formulario{
+	width:940px;
+	margin: 0 auto;
+}
+
+form{
+	margin: 40px 0;
+}
+form label, form p{
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+form input, form textarea{
+	display:block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%;
+}
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%;
+}
+
+.checkbox{
+	margin:20px 0;
+}
+.video{
+	text-align: center;
+	padding: 1em 0;
+}
+#pesquisa{
+	padding: 10px;
+ 	margin-left: 60px; 
+}
+::selection {
+  color: lightblue;
+  background-color: black;
+}
+
+footer{
+	background: linear-gradient( #AED6F1, #EBF5FB);
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+}
