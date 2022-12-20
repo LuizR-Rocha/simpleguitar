@@ -196,7 +196,18 @@ form input, form textarea{
 	padding: 10px;
  	margin-left: 60px; 
 }
-
+#banner{
+	height: 400px;
+	width: 600px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #000000;
+}
+#banner:hover{
+	opacity: 50%;
+}
 
 footer{
 	background: linear-gradient( #AED6F1, #EBF5FB);
