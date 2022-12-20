@@ -27,37 +27,81 @@
 		</header>
 		
 		<main>
-			<p> 
-				<br>
-				O guia definitivo para te ajudar na caminhada da música.
-				<br>
-			</p>
+			<section>
+				<p id="presentationstatement"> 
+					<br>
+					O guia definitivo para te ajudar na caminhada da música
+					<br>
+					<br>
+				</p>
+			</section>
 
 			<h2>Contato</h2>
 			<form class="formulario">
 				<label for="nomesobrenome">Nome e Sobrenome</label>
-				<input type="text" id="nomesobrenome" class="input-padrao">
+				<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="João Araújo">
 
 				<label for="email">E-mail</label>
-				<input type="text" id="email" class="input-padrao">
+				<input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
 
 				<label for="telefone">Telefone</label>
-				<input type="text" id="telefone" class="input-padrao">
+				<input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
 				<label for="mensagem">Mensagem</label>
-				<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
-				<div>
-					<p>Como prefere nosso contato?</p>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Ola, tudo bem?"></textarea>
+				<fieldset id="estrela">
+
+                <legend id="legend-estrela">Avalie nosso site!</legend>
+
+                <select id="estrela_options">
+                    <option>✧</option>
+                    <option>✧✧</option>
+                    <option>✧✧✧</option>
+                    <option>✧✧✧✧</option>
+                    <option>✧✧✧✧✧</option>
+                </select>
+
+            	</fieldset>
+				<div id="bolinhaprincipal">
+					<legend id="comocontato">Como prefere nosso contato?</legend>
+					<br>
 					
-					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					<label class="labeda" for="radio-email">Email<input class="bolinha" type="radio" name="contato" value="email" id="radio-email" checked></label>
+					<br>
 
-					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					<label class="labeda" for="radio-telefone">Telefone<input type="radio" class="bolinha" name="contato" value="telefone" id="radio-telefone" checked></label>
+					<br>
 
-					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> Whatsapp</label>
+					<label class="labeda" for="radio-whatsapp">Whatsapp<input type="radio" class="bolinha" name="contato" value="whatsapp" id="radio-whatsapp" checked></label>
+					<br>
+
+					<label class="labeda">Gostaria de receber nossas novidades por email?<input type="checkbox" class="bolinha"></label>
 				</div>
-					<label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
 					<input type="submit" value="Enviar Formulario">
 			</form>
+			<legend id="legend-tabela">Horários de resposta</legend>
+			<table>
+				<thead>
+					<tr>
+						<td>Dias</td>
+						<td>Horários</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda e Terça</td>
+						<td>8h - 18h</td>
+					</tr>
+					<tr>
+						<td>Quarta e Quinta</td>
+						<td>8h - 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta e Sábado</td>
+						<td>10h - 14h</td>
+					</tr>
+				</tbody>
+			</table>
 		</main>
 	</body>
 
