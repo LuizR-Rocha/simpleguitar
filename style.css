@@ -5,6 +5,15 @@ header {
 	background: linear-gradient( #1E90FF, #34495E);
 	padding: 30px 0;
 }
+.texto::first-letter {
+    font-size: 15px;
+    color:blue;
+}
+
+::selection {
+  color: lightblue;
+  background-color: black;
+}
 #presentationstatement{
 	text-align: center;
 	font-weight: bold;
@@ -80,6 +89,26 @@ h2{
  	margin-left: 60px; 
  	font-size: 30px;
  	font-weight: bold;
+}
+h3{
+	font-family:sans-serif;
+ 	text-align: left;
+ 	height: 20px;
+ 	padding: 5px;
+ 	margin-left: 60px; 
+ 	font-size: 20px;
+ 	font-weight: bold;
+}
+.texto{
+	text-align: justify;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background: white;
+	width: 80%;
+	border-style:groove;
+	border-radius: 15px;
 }
 ol{ 
 	list-style-type: decimal;
@@ -167,10 +196,7 @@ form input, form textarea{
 	padding: 10px;
  	margin-left: 60px; 
 }
-::selection {
-  color: lightblue;
-  background-color: black;
-}
+
 
 footer{
 	background: linear-gradient( #AED6F1, #EBF5FB);
